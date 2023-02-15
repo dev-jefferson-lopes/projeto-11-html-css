@@ -10,6 +10,11 @@
     margin: 0 auto;
 }
 
+h3{
+    margin: 0 0 20px;
+}
+
+
 .section-top {
     border-bottom: 1px solid #ccc;
 }
@@ -18,4 +23,51 @@
     padding: 20px;
     font-size: 1.37em;
     font-weight: bold;
+}
+
+.section-bg-image{
+    background-image: url("/assets/img/capa.jpg");
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.53);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 156px;
+
+    display: flex;
+    align-items: center;
+}
+
+.dark-overlay div{
+    color: #fff;
+    text-align: right;
+}
+
+.section-content{
+    padding: 50px 20px;
+}
+
+.box-image-car{
+    display: flex;
+}
+
+.box-image-car img{
+    width: calc(100% / 3 - 6px);
+    margin: 20px 3px;
+    box-sizing: border-box;
+}
+
+.section-content h4{
+    border-left: 1px solid;
+    padding-left: 10px;
+    font-size: 1.086em;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
