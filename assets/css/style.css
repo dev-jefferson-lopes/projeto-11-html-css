@@ -47,6 +47,7 @@ h3 {
 }
 
 .dark-overlay div {
+    padding-right: 20px;
     color: #fff;
     text-align: right;
 }
@@ -99,7 +100,7 @@ h3 {
 }
 
 form {
-    margin: 20px 0 50px;
+    margin: 20px 0 40px;
     display: flex;
     flex-direction: column;
 }
@@ -141,4 +142,24 @@ footer {
     color: #d92121;
     background-color: #f8f8f8;
     padding: 20px;
+}
+
+@media (max-width: 900px){
+    .section-bg-image{
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 700px) {
+    .box-image-car{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .box-image-car img {
+        width: 90%;
+        margin: 20px 3px;
+        box-sizing: border-box;
+    }
+    
 }
