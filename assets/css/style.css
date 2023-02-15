@@ -10,8 +10,9 @@
     margin: 0 auto;
 }
 
-h3{
+h3 {
     margin: 0 0 20px;
+    font-size: 1.3em;
 }
 
 
@@ -25,7 +26,7 @@ h3{
     font-weight: bold;
 }
 
-.section-bg-image{
+.section-bg-image {
     background-image: url("/assets/img/capa.jpg");
     min-height: 500px;
     background-repeat: no-repeat;
@@ -45,29 +46,99 @@ h3{
     align-items: center;
 }
 
-.dark-overlay div{
+.dark-overlay div {
     color: #fff;
     text-align: right;
 }
 
-.section-content{
+.section-content {
     padding: 50px 20px;
 }
 
-.box-image-car{
+.box-image-car {
     display: flex;
 }
 
-.box-image-car img{
+.box-image-car img {
     width: calc(100% / 3 - 6px);
     margin: 20px 3px;
     box-sizing: border-box;
 }
 
-.section-content h4{
+.section-content h4 {
     border-left: 1px solid;
     padding-left: 10px;
     font-size: 1.086em;
     font-weight: 500;
     margin-bottom: 10px;
+}
+
+.contact {
+    text-align: center;
+    background-color: #d92121;
+    padding: 40px 0;
+    margin-bottom: 50px;
+}
+
+.contact div {
+    width: 100%;
+    background-color: #6c0000;
+    display: flex;
+    justify-content: center;
+}
+
+.contact h3 {
+    margin: 0;
+    padding: 2px;
+    color: #fff;
+    font-size: 2.2em;
+}
+
+.register{
+    padding: 20px;
+}
+
+form {
+    margin: 20px 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+form fieldset {
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input-field label {
+    padding: 7px 0;
+}
+
+.input-field input {
+    padding: 5px;
+}
+
+.input-field select {
+    padding: 7px;
+    margin-top: 10px;
+}
+
+button {
+    width: 100%;
+    height: 32px;
+    background: #d92121;
+    border: none;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    color: #d92121;
+    background-color: #f8f8f8;
+    padding: 20px;
 }
