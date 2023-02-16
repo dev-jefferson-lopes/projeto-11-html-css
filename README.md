@@ -5,9 +5,7 @@ https://timely-baklava-867c9c.netlify.app/
 A proposta deste projeto é desenvolver uma página web para divulgar uma loja de aluguel de carro. O principal objetivo é desenvolver um formulário. Além disso, o arquivo CSS incluirá estilos básicos para tornar o design da página atrativo e responsivo em todos os dispositivos.
 
 ## Layout web
-![Web 1]()
-
-![Web 2]()
+![Web 1](https://github.com/dev-jefferson-lopes/projeto-11-html-css/blob/main/assets/img/home.png)
 
 # Tecnologias utilizadas
 ## Front end
